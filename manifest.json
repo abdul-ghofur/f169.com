@@ -13,7 +13,7 @@
 
   "icons": [
     {
-      "src": "/logo-192x192.png",  
+      "src": "logo-192x192.png",  
       // Path menuju ikon ukuran 192x192 px (digunakan untuk home screen di perangkat mobile).
 
       "sizes": "192x192",  
@@ -23,7 +23,7 @@
       // Jenis file gambar (biasanya "image/png").
     },
     {
-      "src": "/logo-512x512.png",  
+      "src": "logo-512x512.png",  
       // Path menuju ikon ukuran besar (512x512 px), digunakan untuk splash screen dan ikon aplikasi.
 
       "sizes": "512x512",  
