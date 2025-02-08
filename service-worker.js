@@ -4,10 +4,10 @@ self.addEventListener("install", (event) => {
     caches.open("pwa-cache").then((cache) => {
       return cache.addAll([
         "/",
-        "/index.html",
-        "/manifest.json",
-        "/logo_192x192.png",
-        "/logo_512x512.png",
+        "index.html",
+        "manifest.json",
+        "logo_192x192.png",
+        "logo_512x512.png",
       ]);
     })
   );
