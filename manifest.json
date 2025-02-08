@@ -1,0 +1,33 @@
+{
+  "name": "F169", 
+  "short_name": "F169", 
+  "description": "Aplikasi perhitungan dan pembelajaran falak hisab", 
+  "start_url": "/",  
+  "display": "standalone",  
+  // "standalone" = Aplikasi akan berjalan tanpa tampilan browser
+  "background_color": "#12181C",  
+  // Warna latar belakang saat PWA sedang dimuat (splash screen).
+
+  "theme_color": "#1a1a1a",  
+  // Warna utama aplikasi yang bisa digunakan untuk UI (misalnya warna status bar di Android).
+
+  "icons": [
+    {
+      "src": "/logo-192x192.png",  
+      // Path menuju ikon ukuran 192x192 px (digunakan untuk home screen di perangkat mobile).
+
+      "sizes": "192x192",  
+      // Ukuran ikon yang sesuai dengan "src".
+
+      "type": "image/png"  
+      // Jenis file gambar (biasanya "image/png").
+    },
+    {
+      "src": "/logo-512x512.png",  
+      // Path menuju ikon ukuran besar (512x512 px), digunakan untuk splash screen dan ikon aplikasi.
+
+      "sizes": "512x512",  
+      "type": "image/png"  
+    }
+  ]
+}
